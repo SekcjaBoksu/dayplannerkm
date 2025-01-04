@@ -1,6 +1,6 @@
-# DayPlannerKM
+# DayPlanner
 
-DayPlannerKM is a task management application built using a **Spring Boot** backend, **MySQL** database, and a **React.js** frontend. It supports managing tasks, tracking completion, and viewing tasks by date.
+DayPlanner is a task management application built using a **Spring Boot** backend, **MySQL** database, and a **React.js** frontend. It supports managing tasks, tracking completion, and viewing tasks by date.
 ![zdjeciegit](https://github.com/user-attachments/assets/b111e38f-ab59-4671-a849-39d4a1b2ec3a)
 ---
 
