@@ -16,8 +16,6 @@ DayPlannerKM is a task management application built using a **Spring Boot** back
   - [Backend](#backend)
   - [Frontend](#frontend)
 - [Troubleshooting](#troubleshooting)
-- [Contributions](#contributions)
-
 ---
 
 ## Getting Started
