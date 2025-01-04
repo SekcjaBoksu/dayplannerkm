@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*MUI CSS*/
+
+.calendar{
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-panel {
+  width: 40%;
+  padding-right: 40px;
+  max-height: 80vh;
+  height: 72.3vh;
+}
+
+.right-panel {
+  max-width: 55%;
+  min-width: 55%;
+  overflow-y: auto;
+  height: 70vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.right-panel h3 {
+  margin-bottom: 20px;
+}
+
+

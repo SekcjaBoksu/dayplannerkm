@@ -1,0 +1,62 @@
+.task-enter {
+    opacity: 0;
+  }
+  .task-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+  }
+  
+  .task-exit {
+    opacity: 1;
+  }
+  .task-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+  }
+  
+  .task-info {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 200px; 
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+ 
+  /*searchbar and date*/
+  .bar {
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  
+  
+  .task-completed {
+    background: #e0e0e0; 
+  }
+  
+  .task-search {
+    margin-bottom: 10px;
+  }
+
+  .general{
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
