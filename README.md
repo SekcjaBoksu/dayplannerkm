@@ -1,29 +1,40 @@
-# DayPlanner
-DayPlanner is a task management application built using a **Spring Boot** backend, **MySQL** database, and a **React.js** frontend. It supports managing tasks, tracking completion, and viewing tasks by date.
+# DayPlannerKM
+
+DayPlannerKM is a task management application built using a **Spring Boot** backend, **MySQL** database, and a **React.js** frontend. It supports managing tasks, tracking completion, and viewing tasks by date.
+
+---
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup Instructions](#setup-instructions)
+    - [Backend (Spring Boot)](#backend-spring-boot)
+    - [Frontend (React)](#frontend-react)
+- [Features](#features)
+- [Project Structure](#project-structure)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Troubleshooting](#troubleshooting)
+- [Contributions](#contributions)
+
+---
 
 ## Getting Started
 
-### **Prerequisites**
-1. Install [XAMPP](https://www.apachefriends.org/download.html).
-   - Ensure that **Apache** and **MySQL** are running in XAMPP.
-2. Install Java (JDK 11 or later).
-3. Install Node.js and npm.
+### Prerequisites
 
-## Getting Started
-
-### **Prerequisites**
-1. Install [XAMPP](https://www.apachefriends.org/download.html).
+1. **XAMPP**: Install [XAMPP](https://www.apachefriends.org/download.html).
    - Ensure that **Apache** and **MySQL** are running in XAMPP.
-2. Install Java (JDK 11 or later).
-3. Install Node.js and npm.
+2. **Java**: Install JDK 11 or later.
+3. **Node.js and npm**: Install the latest versions of Node.js and npm.
+
+---
+
+## Setup Instructions
 
 ### Backend (Spring Boot)
-1. Navigate to `backend` directory:
+
+1. Navigate to the `backend` directory:
    ```bash
    cd backend
-2. Configure MySQL in application.properties:
-   
-   spring.datasource.url=jdbc:mysql://localhost:3306/<your_database_name>
-   spring.datasource.username=<your_username>
-   spring.datasource.password=<your_password>
-
