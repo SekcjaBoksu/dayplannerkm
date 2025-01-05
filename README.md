@@ -26,17 +26,32 @@ DayPlanner is a task management application built using a **Spring Boot** backen
    - Ensure that **Apache** and **MySQL** are running in XAMPP.
 2. **Java**: Install JDK 11 or later.
 3. **Node.js and npm**: Install the latest versions of Node.js and npm.
+4. 4. **IntelliJ IDEA** (Recommended): Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) for easier project setup and management.
 
 ---
 
-## Setup Instructions
+### Setup Instructions
 
-### Backend (Spring Boot)
+## Backend (Spring Boot)
 
-1. Navigate to the `backend` directory:
+1. **Open the Project in IntelliJ IDEA**  
+   - Open the `backend` folder as a project in IntelliJ IDEA.
+
+2. **Locate the Main Class**  
+   - Navigate to the file:  
+     ```
+     backend\src\main\java\com\kacper\todolist\TodolistApplication.java
+     ```
+
+3. **Run the Application**  
+   - Right-click on the `TodolistApplication` file and select **Run 'TodolistApplication'**.
+
+## Frontend (React)
+
+1. Navigate to the `frontend` directory:
    ```bash
    cd backend
-
+   
 2. Install dependencies:
    ```bash
    npm install
